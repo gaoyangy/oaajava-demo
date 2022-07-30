@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.druid.test-on-borrow",
+      "type": "java.lang.String",
+      "description": "Description for spring.druid.test-on-borrow."
+    },
+    {
+      "name": "spring.druid.test-while-idle",
+      "type": "java.lang.String",
+      "description": "Description for spring.druid.test-while-idle."
+    },
+    {
+      "name": "spring.cloud.nacos.refresh.enabled",
+      "type": "java.lang.String",
+      "description": "Description for spring.cloud.nacos.refresh.enabled."
+    }
+  ] }

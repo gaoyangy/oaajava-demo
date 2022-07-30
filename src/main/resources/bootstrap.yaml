@@ -1,0 +1,49 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: oaajava-demo
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/oaajava?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&autoReconnect=true&useSSL=false
+    username: root
+    password: root
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        username: nacos
+      config:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        ## 文件后缀
+        file-extension: yaml
+    sentinel:
+      eager: true
+      transport:
+        dashboard: localhost:8858
+dubbo:
+  cloud:
+    subscribed-services: oaajava-demo
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.oaajava.demo
+  registry:
+    address: nacos://127.0.0.1:8848
+mybatis-plus:
+  # 对应的 XML 文件位置
+  mapperLocations: classpath*:dao/**/*Mapper.xml
+  # 实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.oaajava.demo.entity
+  # 针对 typeAliasesPackage，如果配置了该属性，则仅仅会扫描路径下以该类作为父类的域对象
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
