@@ -7,6 +7,7 @@ import com.oaajava.demo.service.ISysRoleService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * <p>
@@ -24,7 +25,7 @@ public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> impl
 
     @Override
     public String GetNameService(Integer id) {
-        sysRoleMapper.getTreeByNested(id);
-        return null;
+        List<SysRole> Role = sysRoleMapper.getTreeByNested(id);
+        return Role.get(0).getRoleName();
     }
 }
