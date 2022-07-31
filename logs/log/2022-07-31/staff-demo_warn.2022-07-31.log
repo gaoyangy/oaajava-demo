@@ -15,3 +15,12 @@
 2022-07-31 07:55:11.045 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
 2022-07-31 07:55:11.047 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
 2022-07-31 07:55:11.047 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-07-31 09:01:59.784 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo] & group[DEFAULT_GROUP]
+2022-07-31 09:02:00.585 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-07-31 09:02:00.592 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-07-31 09:02:33.187 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-31 09:02:33.190 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-31 09:02:39.069 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-07-31 09:02:39.069 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-07-31 09:02:54.126 [restartedMain] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.8, current host: 192.168.3.168
+2022-07-31 09:04:32.392 [SpringContextShutdownHook] WARN  org.apache.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] All registry instances have been destroyed, failed to fetch any instance. Usually, this means no need to try to do unnecessary redundant resource clearance, all registries has been taken care of., dubbo version: 2.7.8, current host: 192.168.3.168

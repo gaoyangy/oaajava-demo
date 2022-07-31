@@ -1,2 +1,0 @@
-1659226615732|10|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/oaajava?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&autoReconnect=true&useSSL=false|select * from sys_role where id = ?|select * from sys_role where id = 2
-1659226635587|1|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/oaajava?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&autoReconnect=true&useSSL=false|select * from sys_role where id = ?|select * from sys_role where id = 2
