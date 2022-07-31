@@ -1,0 +1,1 @@
+1659234608573|8|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/oaajava?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&autoReconnect=true&useSSL=false|SELECT id,role_name,create_time,update_time,delete_status FROM sys_role WHERE id=? |SELECT id,role_name,create_time,update_time,delete_status FROM sys_role WHERE id=1 

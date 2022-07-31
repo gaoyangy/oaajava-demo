@@ -18,9 +18,9 @@ public class P6spySqlFormatConfigure implements MessageFormattingStrategy {
      */
     @Override
     public String formatMessage(int connectionId, String now, long elapsed, String category, String prepared, String sql, String url) {
-        return StringUtils.isNotBlank(sql) ? "执行时间:" + formatFullTime(LocalDateTime.now(), DateUtil.FULL_TIME_SPLIT_PATTERN) + "\r\n"+
+        return StringUtils.isNotBlank(sql) ? "执行时间:" + formatFullTime(LocalDateTime.now(), DateUtil.FULL_TIME_SPLIT_PATTERN) + "\r\n" +
                 "SQL耗时【" + elapsed + "毫秒】  \r\n" +
-                "最终执行SQL【" + sql + "】" : StringUtils.EMPTY;
+                "最终执行SQL " + sql : StringUtils.EMPTY;
     }
 
     /**
