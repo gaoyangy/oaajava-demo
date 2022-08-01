@@ -1,7 +1,7 @@
 package com.oaajava.demo.service.impl;
 
 import com.oaajava.demo.model.entity.SysRolePermissionEntity;
-import com.oaajava.demo.mapper.SysRolePermissionDao;
+import com.oaajava.demo.mapper.SysRolePermissionMapper;
 import com.oaajava.demo.service.SysRolePermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author gaoyangy
- * @since 2022-07-31
+ * @since 2022-08-01
  */
 @Service
-public class SysRolePermissionServiceImp extends ServiceImpl<SysRolePermissionDao, SysRolePermissionEntity> implements SysRolePermissionService {
+public class SysRolePermissionServiceImp extends ServiceImpl<SysRolePermissionMapper, SysRolePermissionEntity> implements SysRolePermissionService {
 
 }

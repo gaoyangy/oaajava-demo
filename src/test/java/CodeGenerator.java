@@ -1,11 +1,10 @@
 import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
-import com.baomidou.mybatisplus.generator.config.OutputFile;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.fill.Column;
 import com.baomidou.mybatisplus.generator.fill.Property;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,8 +29,8 @@ public class CodeGenerator {
                             .entity("model.entity") //设置entity包名
                             .controller("controller")
                             .xml("mapper.xml")
-                            .other("model.dto") // 设置dto包名
-                            .pathInfo(Collections.singletonMap(OutputFile.xml, projectPath + "/src/main/resources/mapper")); // 设置mapperXml生成路径
+                            .other("model.dto"); // 设置dto包名
+//                            .pathInfo(Collections.singletonMap(OutputFile.xml, projectPath + "/src/main/resources/mapper")); // 设置mapperXml生成路径
 
                 }).templateConfig(builder -> {
                     builder
@@ -50,11 +49,12 @@ public class CodeGenerator {
                     consumer.customFile(customFile);
                 })
                 .strategyConfig(builder -> {
-                    builder.controllerBuilder()
-                            .enableHyphenStyle()
+                    builder.enableCapitalMode().controllerBuilder()
+//                            .enableHyphenStyle()
                             .enableRestStyle()
-                            .formatFileName("%s")
+//                            .formatFileName("%s")
                             .entityBuilder()
+                            .enableTableFieldAnnotation()
                             .disableSerialVersionUID()
                             .enableChainModel()
                             .enableLombok()
@@ -67,6 +67,7 @@ public class CodeGenerator {
                             .logicDeletePropertyName("deleteFlag")
                             .naming(NamingStrategy.underline_to_camel)
                             .columnNaming(NamingStrategy.underline_to_camel)
+                            .idType(IdType.AUTO)
                             .addSuperEntityColumns("id", "created_by", "created_time", "updated_by", "updated_time")
                             .addIgnoreColumns("age")
                             .addTableFills(new Column("create_time", FieldFill.INSERT))
@@ -75,12 +76,14 @@ public class CodeGenerator {
                             .serviceBuilder()
                             .formatServiceFileName("%sService")
                             .formatServiceImplFileName("%sServiceImp")
+                            .superServiceClass(com.baomidou.mybatisplus.extension.service.IService.class)
+                            .superServiceImplClass(com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.class)
                             .mapperBuilder()
-//                            .superClass(com.baomidou.mybatisplus.mapper.BaseMapper.class)
+                            .superClass(com.baomidou.mybatisplus.core.mapper.BaseMapper.class)
                             .enableMapperAnnotation()
                             .enableBaseResultMap()
                             .enableBaseColumnList()
-                            .formatMapperFileName("%sDao")
+                            .formatMapperFileName("%sMapper")
                             .formatXmlFileName("%sXml")
                             .build();
                     ;

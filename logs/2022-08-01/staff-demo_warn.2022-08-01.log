@@ -1,0 +1,193 @@
+2022-08-01 06:38:14.364 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 06:39:29.345 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 06:55:12.841 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 07:03:20.742 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 07:04:15.211 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-08-01 07:04:25.599 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo] & group[DEFAULT_GROUP]
+2022-08-01 07:04:25.650 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo-bootstrap.yaml.yaml] & group[DEFAULT_GROUP]
+2022-08-01 07:04:26.704 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:04:26.714 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:04:54.027 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.ArticleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.145 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysPermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.184 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.234 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRolePermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.282 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.321 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:04:54.895 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 07:04:54.899 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 07:05:04.234 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:05:04.234 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:05:46.069 [restartedMain] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:07:06.977 [SpringContextShutdownHook] WARN  org.apache.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] All registry instances have been destroyed, failed to fetch any instance. Usually, this means no need to try to do unnecessary redundant resource clearance, all registries has been taken care of., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:07:18.776 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 07:07:18.777 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-08-01 07:07:18.778 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 07:07:18.778 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-08-01 07:07:45.204 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-08-01 07:07:55.436 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo] & group[DEFAULT_GROUP]
+2022-08-01 07:07:55.459 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo-bootstrap.yaml.yaml] & group[DEFAULT_GROUP]
+2022-08-01 07:07:56.303 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:07:56.312 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:08:27.587 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.ArticleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:27.866 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysPermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:27.936 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:27.993 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRolePermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:28.052 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:28.102 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 07:08:28.822 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 07:08:28.826 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 07:08:35.154 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:08:35.154 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 07:08:45.257 [restartedMain] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:03:10.716 [SpringContextShutdownHook] WARN  org.apache.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] All registry instances have been destroyed, failed to fetch any instance. Usually, this means no need to try to do unnecessary redundant resource clearance, all registries has been taken care of., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:51:26.534 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-08-01 09:51:36.821 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo] & group[DEFAULT_GROUP]
+2022-08-01 09:51:36.844 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo-bootstrap.yaml.yaml] & group[DEFAULT_GROUP]
+2022-08-01 09:51:38.260 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:51:38.270 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:52:10.821 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.ArticleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:10.921 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysPermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:10.968 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:11.009 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRolePermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:11.049 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:11.086 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 09:52:11.963 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 09:52:11.968 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 09:52:18.985 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:52:18.985 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 09:52:29.088 [restartedMain] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 10:28:10.684 [SpringContextShutdownHook] WARN  org.apache.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] All registry instances have been destroyed, failed to fetch any instance. Usually, this means no need to try to do unnecessary redundant resource clearance, all registries has been taken care of., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 10:28:21.308 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 10:28:21.308 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-08-01 10:28:21.313 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 10:28:21.314 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-08-01 10:29:24.375 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:30:37.555 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:31:08.204 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:35:11.066 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:36:18.039 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:37:14.597 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:39:57.353 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:42:13.119 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:49:43.130 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:49:43.190 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:49:43.329 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:49:43.389 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:49:43.427 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:49:43.461 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:50:03.811 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:50:03.849 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:50:03.911 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:50:03.931 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:50:03.951 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:50:03.970 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:51:49.226 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:51:49.294 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:51:49.423 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:51:49.475 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:51:49.510 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:51:49.539 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:52:31.038 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:52:31.096 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:52:31.194 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:52:31.227 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:52:31.266 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:52:31.296 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:56:09.085 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:56:09.143 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:56:09.226 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:56:09.253 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:56:09.285 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:56:09.330 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:58:35.694 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:58:35.750 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:58:35.842 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:58:35.868 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:58:35.892 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:58:35.921 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:59:33.102 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 10:59:33.145 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:59:33.218 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:59:33.248 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:59:33.278 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 10:59:33.316 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:04.517 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:00:04.577 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:04.652 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:04.678 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:04.705 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:04.738 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:32.792 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:00:32.850 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:32.952 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:32.990 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:33.040 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:00:33.084 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:08.144 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:03:08.194 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:08.296 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:08.329 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:08.379 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:17.583 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:03:17.637 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:17.725 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:17.748 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:17.770 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:03:17.800 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:06:08.459 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:06:08.505 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:06:08.555 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:06:08.569 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:06:08.585 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:06:08.600 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:08:11.761 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:08:11.807 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:08:11.877 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:08:11.900 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:08:11.920 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:08:11.938 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:09:06.216 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:09:06.273 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:09:06.365 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:09:06.394 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:09:06.419 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:09:06.447 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:13:53.851 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:13:53.884 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:13:53.931 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:13:53.948 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:13:53.963 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:13:53.979 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:15:56.581 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:15:56.652 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:15:56.778 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:15:56.805 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:15:56.828 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:15:56.848 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:17:29.285 [main] WARN  com.baomidou.mybatisplus.generator.config.builder.Entity - Forgot to set entity supper class ?
+2022-08-01 11:17:29.332 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[article]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:17:29.410 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:17:29.433 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_role_permission]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:17:29.454 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:17:29.473 [main] WARN  com.baomidou.mybatisplus.generator.IDatabaseQuery$DefaultDatabaseQuery - 当前表[sys_user_role]的主键为自增主键，会导致全局主键的ID类型设置失效!
+2022-08-01 11:18:43.746 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-08-01 11:18:53.976 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo] & group[DEFAULT_GROUP]
+2022-08-01 11:18:54.003 [restartedMain] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[oaajava-demo-bootstrap.yaml.yaml] & group[DEFAULT_GROUP]
+2022-08-01 11:18:55.360 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:18:55.369 [restartedMain] WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.oaajava.demo], dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:19:22.946 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.ArticleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.024 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysPermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.058 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.087 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysRolePermissionEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.119 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.154 [restartedMain] WARN  com.baomidou.mybatisplus.core.injector.DefaultSqlInjector - class com.oaajava.demo.model.entity.SysUserRoleEntity ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-08-01 11:19:23.933 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 11:19:23.938 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-01 11:19:33.205 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:19:33.206 [restartedMain] WARN  org.apache.dubbo.common.config.ConfigurationUtils -  [DUBBO] You specified the config center, but there's not even one single config item in it., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:19:48.347 [restartedMain] WARN  org.apache.dubbo.config.ServiceConfig -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:20:38.633 [SpringContextShutdownHook] WARN  org.apache.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] All registry instances have been destroyed, failed to fetch any instance. Usually, this means no need to try to do unnecessary redundant resource clearance, all registries has been taken care of., dubbo version: 2.7.8, current host: 192.168.3.168
+2022-08-01 11:20:51.870 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 11:20:51.870 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2022-08-01 11:20:51.872 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-01 11:20:51.872 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end

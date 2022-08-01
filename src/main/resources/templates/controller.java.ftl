@@ -20,8 +20,8 @@ import java.util.List;
 </#if>
 
 /**
-* @Package: ${package.Entity}.${entity}
-* @Description: <$!{table.comment}前端控制器>
+* @Package: ${package.Controller}
+* @Description: <${table.comment}前端控制器>
 * @Author: ${author}
 * @CreateDate: ${date}
 * @UpdateUser: ${author}
@@ -35,9 +35,9 @@ import java.util.List;
 <#else>
 @Controller
 </#if>
-@Api(tags = "${entity}-相关接口")
+@Api(tags = "${table.comment}-${apiName}")
 @ApiOperation(value = "${table.comment}")
-@RequestMapping("<#if package.ModuleName?? && package.ModuleName != "">/${package.ModuleName}</#if>/<#if controllerMappingHyphenStyle>${controllerMappingHyphen}<#else>${table.entityPath}</#if>")
+@RequestMapping("/${apiName}")
 <#if kotlin>
 class ${table.controllerName}<#if superControllerClass??> : ${superControllerClass}()</#if>
 <#else>
@@ -51,37 +51,35 @@ public class ${table.controllerName} {
     @Autowired
     private ${table.serviceName} i${table.serviceName};
 
-    @GetMapping("Get${entity}ById/{id}")
+    @GetMapping("Get${apiName}ById/{id}")
     @ApiOperation(value = "根据id获取${table.comment}")
     public ${entity} get${table.serviceName}Details(@PathVariable Integer id){
         return i${table.serviceName}.getById(id);
     }
 
-    @PostMapping("Post${entity}")
-    @ApiOperation(value = "$!{table.comment}新增数据")
+    @PostMapping("Post${apiName}")
+    @ApiOperation(value = "${table.comment}新增数据")
     public boolean save${table.serviceName}(@RequestBody ${entity} ${entity}Dto){
         return i${table.serviceName}.save(${entity}Dto);
     }
 
-    @PutMapping("Update${entity}ById/{id}")
-    @ApiOperation(value = "$!{table.comment}修改数据")
+    @PutMapping("Update${apiName}ById/{id}")
+    @ApiOperation(value = "${table.comment}修改数据")
     public boolean modify${table.serviceName}(@RequestBody ${entity} ${entity}Dto,@PathVariable Integer id){
         return i${table.serviceName}.updateById(${entity}Dto);
     }
 
-    @DeleteMapping("Delete${entity}Batch")
+    @DeleteMapping("Delete${apiName}Batch")
     @ApiOperation(value = "${table.comment}批量删除数据")
     public boolean batchRemove${table.serviceName}(@RequestParam(value = "ids") List<Integer> ids){
         return i${table.serviceName}.removeByIds(ids);
     }
 
-    @DeleteMapping("Delete${entity}ById/{id}")
+    @DeleteMapping("Delete${apiName}ById/{id}")
     @ApiOperation(value = "${table.comment}删除数据")
     public boolean remove${table.serviceName}(@PathVariable Integer id){
         return i${table.serviceName}.removeById(id);
     }
 
-    }
-
-
+}
 </#if>
